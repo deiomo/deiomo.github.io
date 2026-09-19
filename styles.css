@@ -5,3 +5,12 @@
 @media(max-width:1000px){.site-shell{padding:0 5%}.hero{gap:5%;padding-top:48px}h1{letter-spacing:-5px}.portrait-top{display:block}.portrait-top span:last-child{display:none}.portrait-caption{font-size:22px;left:20px;right:20px}.portrait-image{aspect-ratio:3/4}.portrait figcaption>span:last-child{display:none}.about-content{gap:5%}}
 @media(max-width:700px){.header{min-height:85px}.site-shell{padding:0 6%}nav{gap:22px}.hero{grid-template-columns:1fr;gap:45px;padding:42px 0 45px}.eyebrow{margin-bottom:25px}h1{font-size:clamp(70px,16vw,108px);letter-spacing:-5px;margin-bottom:25px}.hero-subtitle{font-size:26px}.hero-subtitle br{display:none}.hero-subtitle br::after{content:" "}.hero-subtitle{max-width:320px}.hero-subtitle>span{display:block}.intro{margin-bottom:25px}.portrait{width:100%;max-width:470px;margin:auto}.portrait-top{display:flex}.portrait-top span:last-child{display:block;font-size:12px;letter-spacing:0}.portrait-image{aspect-ratio:4/5;border-top-left-radius:95px}.portrait-caption{font-size:27px}.portrait figcaption>span:last-child{display:block}.about{padding-top:32px;padding-bottom:40px}.section-index{font-size:12px;letter-spacing:1px;gap:15px}.about-content{grid-template-columns:1fr;gap:26px;padding-top:25px}.about h2{font-size:42px}.outro{align-items:start;flex-direction:column;padding:28px 22px;gap:25px;margin-bottom:32px}.outro h2{font-size:29px}.profile-link{width:100%}footer{flex-wrap:wrap;gap:16px}footer a:last-child{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* My Stuff collections */
+.collections{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:0 0 60px}
+.collection-card{min-width:0;padding:32px;background:linear-gradient(140deg,#251a32,var(--surface));border:1px solid #493257;border-radius:6px}
+.collection-number{color:var(--purple);font:12px "Courier New",monospace;letter-spacing:1.5px}
+.collection-card h3{font-size:clamp(26px,3vw,34px);font-weight:400;letter-spacing:-1px;line-height:1.2;margin:27px 0 12px}
+.collection-card p{color:var(--muted);font-size:16px;line-height:1.7;margin:0 0 28px}
+.collection-empty{padding-top:20px;border-top:1px solid var(--line);color:#baabc8;font-size:14px}
+@media(max-width:700px){.collections{grid-template-columns:1fr;gap:18px;margin-bottom:40px}.collection-card{padding:26px}}
