@@ -17,5 +17,7 @@
 .download-item{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 16px;padding:16px 0;border-bottom:1px solid var(--line);color:var(--text);text-decoration:none;transition:color .2s}
 .download-item:hover,.download-item:focus-visible{color:var(--purple)}
 .download-name{font-size:17px}
+.collection-wide{grid-column:1/-1}
+.download-desc{display:block;margin-top:6px;color:var(--muted);font-size:14px;line-height:1.5}
 .download-meta{color:var(--muted);font:12px "Courier New",monospace;letter-spacing:1px;white-space:nowrap}
 @media(max-width:700px){.collections{grid-template-columns:1fr;gap:18px;margin-bottom:40px}.collection-card{padding:26px}}
